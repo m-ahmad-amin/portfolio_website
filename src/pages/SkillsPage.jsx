@@ -90,7 +90,7 @@ export default function SkillsPage() {
                 >
                 </img>
               </div>
-              <h3 className="font-semibold text-white/80 font-poppins">CSS</h3>
+              <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">CSS</h3>
             </div>
 
             {/* JavaScript */}
