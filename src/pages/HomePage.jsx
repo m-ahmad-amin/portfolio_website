@@ -14,19 +14,19 @@ export default function HomePage() {
                     <h1 className="text-sm md:text-[15px] font-extrabold">CS and Full Stack Engineer | Exploring Data Science to solve real world problems.</h1>
                     </div>
                     <div className="flex gap-2 text-white text-2xl">
-                        <a>
+                        <a href="https://www.linkedin.com/in/m-ahmad-amin" target="_blank">
                             <SiLinkedin className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
 
-                        <a className="hover:cursor-pointer hover:scale-[1.1]">
+                        <a href="https://github.com/m-ahmad-amin" target="_blank">
                             <SiGithub className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
 
-                        <a className="hover:cursor-pointer hover:scale-[1.1]">
+                        <a>
                             <SiInstagram className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
 
-                        <a className="hover:cursor-pointer hover:scale-[1.1]">
+                        <a>
                             <SiFacebook className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
                     </div>
