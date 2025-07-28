@@ -33,7 +33,7 @@ export default function NavBar() {
         }}>Contact</button> */}
 
         <button
-        className={"transition-all duration-[400ms] ease-in-out relative after:transition-[width] after:duration-[400ms] after:ease-in-out text-white text-md sm:text-lg font-extrabold hover:text-[#00f0ff] after:content-[''] after:bg-[#00f0ff] after:w-0 after:hover:w-[100%] after:hover:bg-[#00f0ff] after:absolute after:left-0 after:bottom-[-3px] after:h-[2px]"}
+        className={"transition-all duration-[400ms] ease-in-out relative after:transition-[width] after:duration-[400ms] after:ease-in-out text-white text-md sm:text-lg font-extrabold hover:text-[#00f0ff] after:content-[''] after:bg-[#00f0ff] after:w-0 hover:after:w-[100%] after:hover:bg-[#00f0ff] after:absolute after:left-0 after:bottom-[-3px] after:h-[2px]"}
          onClick={() => {
             window.open("/Resume.pdf", "_blank");
         }}>Resume</button>
