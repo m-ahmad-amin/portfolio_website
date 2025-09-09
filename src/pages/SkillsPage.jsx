@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaCss3, FaJava } from "react-icons/fa";
-import { SiCss3, SiExpress, SiHtml5, SiJavascript, SiMongodb, SiMongoose, SiMysql, SiNodedotjs, SiReact, SiTypescript } from "react-icons/si";
+import { SiCss3, SiExpress, SiHtml5, SiJavascript, SiAnaconda, SiJupyter, SiMongodb, SiMongoose, SiMysql, SiNodedotjs, SiReact, SiTypescript, SiNumpy } from "react-icons/si";
 import { useLocation } from "react-router-dom";
 
 export default function SkillsPage() {
@@ -59,6 +59,72 @@ export default function SkillsPage() {
               </div>
               <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">
                 JavaScript
+              </h3>
+            </div>
+
+            {/* Python */}
+            <div className="flex flex-col gap-1 justify-center items-center">
+              <div className="flex flex-col justify-center items-center border p-2 rounded-xl transition-all duration-300 ease-in-out bg-[#222] hover:cursor-pointer hover:scale-110">
+                <img
+                src="https://www.vectorlogo.zone/logos/python/python-icon.svg"
+                alt="Python Logo"
+                className="h-[3rem] w-[3rem] md:h-[3.75rem] md:w-[3.75rem]"
+                >
+                </img>
+              </div>
+              <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">Python</h3>
+            </div>
+          </div>
+        </div>
+
+        {/* Data Science */}
+        <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          {/* Heading */}
+          <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
+            Data Science
+          </h2>
+
+          <div className="flex justify-center items-center flex-wrap gap-3">
+            {/* Python */}
+            <div className="flex flex-col gap-1 justify-center items-center">
+              <div className="flex flex-col justify-center items-center border p-2 rounded-xl transition-all duration-300 ease-in-out bg-[#222] hover:cursor-pointer hover:scale-110">
+                <img
+                src="https://www.vectorlogo.zone/logos/python/python-icon.svg"
+                alt="Python Logo"
+                className="h-[3rem] w-[3rem] md:h-[3.75rem] md:w-[3.75rem]"
+                >
+                </img>
+              </div>
+              <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">Python</h3>
+            </div>
+
+            {/* NumPy */}
+            <div className="flex flex-col gap-1 justify-center items-center">
+              <div className="text-[#013243] text-5xl md:text-6xl flex flex-col justify-center items-center border p-2 rounded-xl transition-all duration-300 ease-in-out bg-[#222] hover:cursor-pointer hover:scale-110">
+                <SiNumpy />
+              </div>
+              <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">
+                NumPy
+              </h3>
+            </div>
+
+            {/* Anaconda */}
+            <div className="flex flex-col gap-1 justify-center items-center">
+              <div className="text-[#44A833] text-5xl md:text-6xl flex flex-col justify-center items-center border p-2 rounded-xl transition-all duration-300 ease-in-out bg-[#222] hover:cursor-pointer hover:scale-110">
+                <SiAnaconda />
+              </div>
+              <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">
+                Anaconda
+              </h3>
+            </div>
+
+            {/* Jupyter */}
+            <div className="flex flex-col gap-1 justify-center items-center">
+              <div className="text-[#F37626] text-5xl md:text-6xl flex flex-col justify-center items-center border p-2 rounded-xl transition-all duration-300 ease-in-out bg-[#222] hover:cursor-pointer hover:scale-110">
+                <SiJupyter />
+              </div>
+              <h3 className="text-sm md:text-md font-semibold text-white/80 font-poppins">
+                Jupyter
               </h3>
             </div>
           </div>
