@@ -62,35 +62,35 @@ export default function ProjectsPage() {
             <h2 className="text-white text-xl font-poppins font-bold">
               Preview
             </h2>
-            <div className="flex flex-wrap gap-[2%]">
+            <div className="flex flex-wrap gap-[2%] cursor-pointer">
                 <img
                 src={UploadPostD}
-                className="w-[49%]"
+                className="w-[49%] h-auto object-contain"
                 >
                 </img>
                 <img
                 src={HomePageD}
-                className="w-[49%]"
+                className="w-[49%] h-auto object-contain"
                 >
                 </img>
                 <img
                 src={ProfilePageD}
-                className="w-[49%]"
+                className="w-[49%] h-auto object-contain"
                 >
                 </img>
                 <img
                 src={UploadPostM}
-                className="w-[15%]"
+                className="w-[15%] h-auto object-contain"
                 >
                 </img>
                 <img
                 src={HomePageM}
-                className="w-[15%]"
+                className="w-[15%] h-auto object-contain"
                 >
                 </img>
                 <img
                 src={LoginPageM}
-                className="w-[15%]"
+                className="w-[15%] h-auto object-contain"
                 >
                 </img>
             </div>
