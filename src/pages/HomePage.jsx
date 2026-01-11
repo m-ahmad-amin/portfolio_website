@@ -1,4 +1,4 @@
-import { SiFacebook, SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
+import { SiCodeforces, SiFacebook, SiGithub, SiInstagram, SiLeetcode, SiLinkedin } from "react-icons/si";
 import Lottie from "lottie-react";
 import homePageAnimation from "./../assets/animations/homePageAnimation.json";
 import SkillsPage from "./SkillsPage"
@@ -22,12 +22,16 @@ export default function HomePage() {
                             <SiGithub className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
 
-                        <a>
-                            <SiInstagram className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
+                        <a href="https://leetcode.com/u/mahmadamindw" target="_blank">
+                            <SiLeetcode className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
+                        </a>
+
+                        <a href="https://codeforces.com/profile/ahmad_amin" target="_blank">
+                            <SiCodeforces className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
 
                         <a>
-                            <SiFacebook className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
+                            <SiInstagram className="transition-all duration-300 ease-in-out hover:cursor-pointer hover:scale-110" />
                         </a>
                     </div>
                 </div>
