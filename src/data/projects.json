@@ -1,0 +1,202 @@
+{
+  "projects": [
+    {
+      "id": "factarena",
+      "title": "Fact Arena",
+      "subtitle": "Full-Stack AI-Judged 1v1 Debate Platform (Argument Settler)",
+      "description": "Fact Arena turns debates into a competitive game. Two players sit on the same device, take turns entering arguments under a time limit, and at the end, arguments are evaluated and winner is decided.Instead of just 'who talks more,' the system focuses on who argues better with facts.",
+      "techStack": [
+        "React.js",
+        "TailwindCSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Groq API",
+        "MERN Stack",
+        "Netlfiy",
+        "Render"
+      ],
+      "liveUrl": "https://fact-arena.netlify.app/",
+      "githubUrl": "https://github.com/m-ahmad-amin/factarena",
+      "coverImage": "FA-land.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1781799298/Group_3_1_1_cnjdg0.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1781799274/Group_9_2_gxaoqc.png",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Two-player, single-device pass-and-play debate format",
+        "Timed rounds with players alternating arguments",
+        "Custom, user-selected debate topics",
+        "Full transcript sent to an impartial AI judge (Groq LLM) for evaluation",
+        "AI scoring based on logical consistency, topic relevance, argument strength, persuasiveness, and quality of counterpoints",
+        "Structured judgment output: individual scores, final winner, and detailed reasoning",
+        "React (Vite) + Tailwind CSS frontend",
+        "Node.js + Express.js backend"
+      ]
+    },
+    {
+      "id": "islandrain",
+      "title": "Island Rain",
+      "subtitle": "A 3D island escape puzzle built with Three.js for Reddit's Devvit Web.",
+      "description": "A daily 3D word-puzzle game for Reddit, built on the Devvit developer platform. Rain letters onto a low-poly island, catch the ones you need, and unscramble the hidden word before the rising flood swallows your beach. Each day a new puzzle is posted to the community. Players race the clock, climb time and score-based leaderboards, and share their results back to the comments.",
+      "techStack": [
+        "React.js",
+        "TailwindCSS",
+        "Three.js",
+        "Hone",
+        "Redis (Devvit)",
+        "Devvit Web",
+        "TypeScript"
+      ],
+      "liveUrl": "https://www.reddit.com/r/island_rain/s/fWV5QIeFeK",
+      "githubUrl": "https://github.com/m-ahmad-amin/island-rain",
+      "coverImage": "IR-land.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783417898/Group_9_5_tdvmgy.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783417549/Group_6_6_bjii0x.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783416904/Group_6_5_mehcue.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783416698/Group_5_5_xl3dnz.png",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Daily 3D word-puzzle game built on Reddit's Devvit platform",
+        "New puzzle posted automatically each day, shared by the whole community",
+        "Collect phase: tap falling letters for points, avoid decoy letters that cost score and add a time penalty",
+        "Unscramble phase: drag collected tiles into the correct order",
+        "Escape phase: solve the word before the rising flood, earning escape and speed bonuses",
+        "Daily hook: failing a puzzle lets you suggest the next day's puzzle",
+        "Daily challenge mode with live, time and score-based leaderboards and Archive mode to replay past puzzles for unranked practice",
+        "Automated post creation via cron scheduling, app install, and moderator menu action",
+        "Redis-backed leaderboards tracking fastest times and highest scores per day",
+        "Result sharing: winners can post their run as a comment on the puzzle thread"
+      ]
+    },
+    {
+      "id": "linracy",
+      "title": "Linracy",
+      "subtitle": "Social Media Platform",
+      "description": "Linracy is a Full Stack social media website designed with a focus on clean UI and seamless user experience. It allows users to sign up, create and manage their profiles, and explore other users, along with uploading and browsing photos — all within a responsive and sleek interface. The project demonstrates core concepts of full-stack development using the MERN stack.",
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MERN Stack",
+        "JavaScript"
+      ],
+      "liveUrl": "https://linracy.netlify.app/",
+      "githubUrl": "https://github.com/m-ahmad-amin/linracy",
+      "coverImage": "UploadPostD.png",
+      "previewImages": [
+        { "src": "UploadPostD.png", "size": "large" },
+        { "src": "HomePageD.png", "size": "large" },
+        { "src": "ProfilePageD.png", "size": "large" },
+        { "src": "UploadPostM.png", "size": "small" },
+        { "src": "HomePageM.png", "size": "small" },
+        { "src": "LoginPageM.png", "size": "small" }
+      ],
+      "features": [
+        "User Authentication: Secure registration and login system",
+        "Photo Uploads: Users can upload and display images",
+        "Profile Management: Personalized profile pages with dynamic data",
+        "Explore Users: Discover and view other user profiles",
+        "Responsive UI: Responsive across mobile, tablet, and desktop"
+      ]
+    },
+    {
+      "id": "o3scope",
+      "title": "O3Scope",
+      "subtitle": "Ozone Analysis, Visualization and Prediction Using Nasa Dataset",
+      "description": "The depletion of the ozone layer is one of the most pressing environmental challenges of our time, directly affecting UV exposure, human health, and global ecosystems. O3Scope was built to make this invisible crisis visible: transforming raw NASA satellite data into interactive maps, city-level risk classifications, and predictive forecasts that anyone can explore.",
+      "techStack": [
+        "Python",
+        "Numpy",
+        "Pandas",
+        "h5py",
+        "Matplotlib",
+        "Cartopy",
+        "Scikit-learn (Linear Regression)",
+        "Hex"
+      ],
+      "liveUrl": "https://app.hex.tech/019bc84d-6d99-7005-ad5d-c5d4b1514cf3/app/O3Scope-Ozone-Analysis-and-Prediction-Using-Nasa-DataSet-032DBlWgYk46bGQvfCRhkz/latest",
+      "githubUrl": "https://github.com/m-ahmad-amin/O3Scope",
+      "coverImage": "OS-land.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783727713/Group_10_mdsiju.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783729324/Group_2_3_icn3gq.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783729333/Sheets_Modals_9_kpaso5.png",
+          "size": "small"
+        }
+      ],
+      "features": [
+        "User Authentication: Secure registration and login system",
+        "Photo Uploads: Users can upload and display images",
+        "Profile Management: Personalized profile pages with dynamic data",
+        "Explore Users: Discover and view other user profiles",
+        "Responsive UI: Responsive across mobile, tablet, and desktop"
+      ]
+    },
+    {
+      "id": "hangulpath",
+      "title": "Hangul Path",
+      "subtitle": "MERN Korean language learning platform",
+      "description": "A full-stack MERN Korean language learning platform | A structured path from Hangul basics to everyday conversation. One lesson unlocks each day | Read, practice, and quiz your way to fluency.",
+      "techStack": [
+        "React.js",
+        "TailwindCSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Groq API",
+        "MERN Stack",
+        "Netlfiy",
+        "Render"
+      ],
+      "liveUrl": "https://hangul-path.netlify.app/",
+      "githubUrl": "https://github.com/m-ahmad-amin/hangul-path",
+      "coverImage": "HP-land.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1782846683/Group_7_3_kgyqlo.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1782848599/Group_4_4_x3vaex.png",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Webtoon-style lessons presented as comic panel sequences with paper texture, not plain text",
+        "Daily unlock system - one lesson unlocks per day to encourage consistent practice over binge-cramming",
+        "Quizzes per lesson to test understanding before moving forward",
+        "AI tutor available to ask questions and get help anytime during the course",
+        "Progress tracking with visual summary of completed days and quiz scores",
+        "Reset anytime - restart the full 30-day course from Day 1 for a clean slate"
+      ]
+    }
+  ]
+}
