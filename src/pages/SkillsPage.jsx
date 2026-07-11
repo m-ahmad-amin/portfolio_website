@@ -43,9 +43,9 @@ export default function SkillsPage() {
     >
       <div className="flex flex-col items-center justify-center min-h-[80dvh] py-2">
         {/* Main Container */}
-        <div className="w-[90%] flex flex-wrap gap-[2%] justify-center items-center">
+        <div className="w-[90%] columns-1 md:columns-2 gap-4 md:gap-6">
           {/* Programming Languages */}
-          <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          <div className="break-inside-avoid mb-4 w-full border border-white rounded-lg p-3 flex flex-col gap-4">
             {/* Heading */}
             <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
               Programming Languages
@@ -93,7 +93,7 @@ export default function SkillsPage() {
           </div>
 
           {/* Data Science */}
-          <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          <div className="break-inside-avoid mb-4 w-full border border-white rounded-lg p-3 flex flex-col gap-4">
             {/* Heading */}
             <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
               Data Science
@@ -324,7 +324,7 @@ export default function SkillsPage() {
           </div>
 
           {/* Frontend Development */}
-          <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          <div className="break-inside-avoid mb-4 w-full border border-white rounded-lg p-3 flex flex-col gap-4">
             {/* Heading */}
             <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
               Frontend Development
@@ -378,7 +378,7 @@ export default function SkillsPage() {
           </div>
 
           {/* Backend Development */}
-          <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          <div className="break-inside-avoid mb-4 w-full border border-white rounded-lg p-3 flex flex-col gap-4">
             {/* Heading */}
             <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
               Backend Development
@@ -418,7 +418,7 @@ export default function SkillsPage() {
           </div>
 
           {/* Databases */}
-          <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          <div className="break-inside-avoid mb-4 w-full border border-white rounded-lg p-3 flex flex-col gap-4">
             {/* Heading */}
             <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
               Databases
@@ -458,7 +458,7 @@ export default function SkillsPage() {
           </div>
 
           {/* Version Control System */}
-          <div className="w-[100%] md:w-[40%] border border-white rounded-lg mt-3 p-3 flex flex-col gap-4">
+          <div className="break-inside-avoid mb-4 w-full border border-white rounded-lg p-3 flex flex-col gap-4">
             {/* Heading */}
             <h2 className="text-white text-md md:text-lg font-semibold font-poppins">
               Version Control System

@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-import ProjectsGallery from "../components/projects/ProjectsGallery";
-import { projects } from "../utils/projectUtils";
+import { Navigate, useLocation, useParams } from "react-router-dom";
+import ProjectDetail from "../components/projects/ProjectDetail";
+import { getProjectById } from "../utils/projectUtils";
 
-export default function ProjectsPage() {
+export default function ProjectDetailPage() {
+  const { projectId } = useParams();
   const location = useLocation();
   const [mounted, setMounted] = useState(false);
+  const project = getProjectById(projectId);
 
   useEffect(() => {
     setMounted(false);
@@ -16,19 +18,17 @@ export default function ProjectsPage() {
     return () => clearTimeout(timeOut);
   }, [location.pathname]);
 
+  if (!project) {
+    return <Navigate to="/projects" replace />;
+  }
+
   return (
     <div
       className={`transition-all duration-700 ease-out transform ${
         mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-      <div className="w-full flex justify-center py-6 md:py-8">
-        <div className="flex w-[92%] max-w-5xl flex-col gap-5">
-          
-
-          <ProjectsGallery projects={projects} />
-        </div>
-      </div>
+      <ProjectDetail project={project} />
     </div>
   );
 }

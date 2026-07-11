@@ -1,12 +1,12 @@
 import { SiCodeforces, SiFacebook, SiGithub, SiInstagram, SiLeetcode, SiLinkedin } from "react-icons/si";
 import Lottie from "lottie-react";
 import homePageAnimation from "./../assets/animations/homePageAnimation.json";
-import SkillsPage from "./SkillsPage"
+import CodingGraph from "../components/CodingGraph";
 
 export default function HomePage() {
     return (
         <>
-            <div className="flex flex-col md:flex-row justify-evenly md:justify-center items-center w-[100%] pt-[2%] flex-wrap h-[50dvh]">
+            <div className="flex flex-col md:flex-row justify-evenly md:justify-center items-center w-[100%] pt-[2%] flex-wrap min-h-[50dvh]">
                 <div className="text-white font-poppins flex flex-col gap-3 pl-2">
                     <div className="flex flex-col gap-2">
                     <h1 className="text-sm font-extrabold">Hello, My name is</h1>
@@ -40,6 +40,8 @@ export default function HomePage() {
                     <Lottie animationData={homePageAnimation} loop={true} autoplay={true} />
                 </div>
             </div>
+
+            <CodingGraph />
         </>
     )
 }
