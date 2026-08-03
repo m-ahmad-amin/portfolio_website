@@ -23,7 +23,7 @@ export default function ProjectDetail({ project }) {
           to="/projects"
           className="inline-flex w-fit items-center gap-2 text-sm font-poppins text-white/70 transition hover:text-[#00f0ff]"
         >
-          <FaArrowLeft size={12} /> Back to Projects
+          <FaArrowLeft size={12} /> Back to Experience & Projects
         </Link>
 
         <div className="overflow-hidden rounded-2xl border border-white/15 bg-[#161b22]">
