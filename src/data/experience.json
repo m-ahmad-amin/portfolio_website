@@ -1,0 +1,80 @@
+{
+  "experience": [
+    {
+      "id": "Full-Stack-Development-Intern",
+      "title": "Full-Stack Development Intern",
+      "company": "Cue for habit",
+      "subtitle": "Full-Stack Development",
+      "description": "Developing full-stack features for a Digital Activity Tracker converting screen-time data into behavioral insights, encouraging mindful screen use and integrating LLM-based APIs to power adaptive task reprioritization.",
+      "date": "July 2026 - Present",
+      "bullets": [
+        "Developing full-stack features for a Digital Activity Tracker that analyzes screen-time patterns and converts usage data into actionable behavioral insights.",
+        "Integrating LLM-based APIs to enable adaptive task prioritization and personalized recommendations for users.",
+        "Designing and implementing RESTful APIs for reminder scheduling, activity logging, streak management, and user progress tracking.",
+        "Building and optimizing MongoDB-backed data models to support real-time activity updates and efficient state management.",
+        "Collaborating on end-to-end application development, including backend services, database integration, and AI-powered feature implementation."
+      ],
+      "techStack": [
+        "React Native",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Node.js",
+        "Supabase"
+      ],
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785148/linkedin-mockup-trio_ceraph.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785148/linkedin-mockup-trio_ceraph.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785306/c__Users_7mahm_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_image-ffc942ee-d7c8-4ed3-b747-4e770b813450_m1x6q7.png",
+          "size": "small"
+        }
+      ],
+      "tag": "Development Experience"
+    },
+    {
+      "id": "ai-research-assistant",
+      "title": "AI Research Assistant",
+      "company": "NUST SEECS",
+      "subtitle": "Research Assistant - Fernwise",
+      "description": "Conducting research on efficient deep learning models for real-time image classification on resource-constrained mobile devices, targeting agricultural applications in Pakistan.",
+      "date": "July 2026 - Present",
+      "bullets": [
+        "Conducting research on efficient deep learning models for real-time image classification (computer vision) on resource-constrained mobile devices, targeting agricultural applications in Pakistan",
+        "Evaluating lightweight architectures for deployment on low-end hardware under real-world field conditions",
+        "Built responsive React + Tailwind UI with clear debate state transitions",
+        "Deployed frontend and backend with continuous iteration based on playtesting",
+        "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%",
+        "Lightweight architectures for deployment on low-end hardware under low constraints of around 500KB memory",
+        "Ful-Stack React Native app so it can be used on smart phones"
+      ],
+      "techStack": [
+        "Python",
+        "PyTorch",
+        "Tensor Flow",
+        "Deep Learning",
+        "Object Detection",
+        "Classification"
+      ],
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785807/linkedin_disease_results_v2_r3kpvp.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785807/linkedin_disease_results_v2_r3kpvp.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785714/fernwise-splash-preview_ighffn.png",
+          "size": "small"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785885/linkedin_pest_results_zfyahj.png",
+          "size": "large"
+        }
+      ],
+      "tag": "Research Experience"
+    }
+  ]
+}
