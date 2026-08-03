@@ -41,6 +41,44 @@
       ]
     },
     {
+      "id": "fernwise",
+      "title": "Fernwise",
+      "subtitle": "Adaptive AI Architecture model for Agriculture",
+      "description": "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%.",
+      "techStack": [
+        "Python",
+        "Deep Learning",
+        "PyTorch",
+        "Tensor Flow",
+        "Object Detection",
+        "React Native"
+      ],
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785786379/Gemini_Generated_Image_943svh943svh943s_binpzi.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785807/linkedin_disease_results_v2_r3kpvp.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785786379/Gemini_Generated_Image_943svh943svh943s_binpzi.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785885/linkedin_pest_results_zfyahj.png",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Conducting research on efficient deep learning models for real-time image classification (computer vision) on resource-constrained mobile devices, targeting agricultural applications in Pakistan",
+        "Evaluating lightweight architectures for deployment on low-end hardware under real-world field conditions",
+        "Built responsive React + Tailwind UI with clear debate state transitions",
+        "Deployed frontend and backend with continuous iteration based on playtesting",
+        "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%",
+        "Lightweight architectures for deployment on low-end hardware under low constraints of around 500KB memory",
+        "Ful-Stack React Native app so it can be used on smart phones"
+      ]
+    },
+    {
       "id": "islandrain",
       "title": "Island Rain",
       "subtitle": "A 3D island escape puzzle built with Three.js for Reddit's Devvit Web.",
@@ -103,7 +141,7 @@
       ],
       "liveUrl": "https://linracy.netlify.app/",
       "githubUrl": "https://github.com/m-ahmad-amin/linracy",
-      "coverImage": "UploadPostD.png",
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785977/linracy_linkedin_03_responsive_trio_hwq4jg.png",
       "previewImages": [
         { "src": "UploadPostD.png", "size": "large" },
         { "src": "HomePageD.png", "size": "large" },
