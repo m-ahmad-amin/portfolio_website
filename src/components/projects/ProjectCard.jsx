@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaDownload, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({ project }) {
   return (
@@ -20,6 +20,17 @@ export default function ProjectCard({ project }) {
               className="inline-flex items-center gap-2 rounded-full bg-[#00f0ff] px-4 py-2 text-xs font-poppins font-semibold text-[#0D1117] transition hover:bg-[#00f0ff]/90"
             >
               <FaExternalLinkAlt size={11} /> Live Site
+            </a>
+          )}
+
+          {project.downloadAPK && (
+            <a
+              href={project.downloadAPK}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-[#00f0ff] px-4 py-2 text-xs font-poppins font-semibold text-[#0D1117] transition hover:bg-[#00f0ff]/90"
+            >
+              <FaDownload size={11} /> Download APK
             </a>
           )}
 
