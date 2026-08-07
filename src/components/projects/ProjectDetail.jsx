@@ -1,4 +1,9 @@
-import { FaArrowLeft, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import {
+  FaArrowLeft,
+  FaDownload,
+  FaExternalLinkAlt,
+  FaGithub,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import ProjectPreviewGallery from "./ProjectPreviewGallery";
 
@@ -60,6 +65,18 @@ export default function ProjectDetail({ project }) {
                   <FaExternalLinkAlt size={14} /> View Live Site
                 </a>
               )}
+
+              {project.downloadAPK && (
+                <a
+                  href={project.downloadAPK}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#00f0ff] px-5 py-2.5 text-sm font-poppins font-semibold text-[#0D1117] transition hover:bg-[#00f0ff]/90"
+                >
+                  <FaDownload size={14} /> Download APK
+                </a>
+              )}
+
               {project.githubUrl && (
                 <a
                   href={project.githubUrl}
