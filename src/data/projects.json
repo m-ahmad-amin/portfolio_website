@@ -170,7 +170,7 @@
         "h5py",
         "Matplotlib",
         "Cartopy",
-        "Scikit-learn (Linear Regression)",
+        "Scikit-learn",
         "Hex"
       ],
       "liveUrl": "https://app.hex.tech/019bc84d-6d99-7005-ad5d-c5d4b1514cf3/app/O3Scope-Ozone-Analysis-and-Prediction-Using-Nasa-DataSet-032DBlWgYk46bGQvfCRhkz/latest",
