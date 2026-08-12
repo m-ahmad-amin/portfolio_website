@@ -176,7 +176,7 @@
       ],
       "liveUrl": "https://app.hex.tech/019bc84d-6d99-7005-ad5d-c5d4b1514cf3/app/O3Scope-Ozone-Analysis-and-Prediction-Using-Nasa-DataSet-032DBlWgYk46bGQvfCRhkz/latest",
       "githubUrl": "https://github.com/m-ahmad-amin/O3Scope",
-      "coverImage": "OS-land.png",
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1786526939/o3scope-linkedin-mockup-v2_hskvmc.png",
       "previewImages": [
         {
           "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783727713/Group_10_mdsiju.png",
@@ -189,6 +189,10 @@
         {
           "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1783729333/Sheets_Modals_9_kpaso5.png",
           "size": "small"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1786526939/o3scope-linkedin-mockup-v2_hskvmc.png",
+          "size": "large"
         }
       ],
       "features": [
