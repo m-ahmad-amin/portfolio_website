@@ -24,14 +24,11 @@ const MONTH_LABELS = [
   "Dec",
 ];
 
-function getLevel(count, maxCount) {
+function getLevel(count) {
   if (!count) return 0;
-  if (maxCount <= 0) return 1;
-
-  const ratio = count / maxCount;
-  if (ratio <= 0.25) return 1;
-  if (ratio <= 0.5) return 2;
-  if (ratio <= 0.75) return 3;
+  if (count <= 2) return 1;
+  if (count <= 4) return 2;
+  if (count <= 7) return 3;
   return 4;
 }
 
@@ -148,10 +145,9 @@ export async function fetchCombinedCodingGraph() {
     };
   });
 
-  const maxCount = Math.max(...mergedDays.map((day) => day.count), 0);
   const contributions = mergedDays.map((day) => ({
     ...day,
-    level: getLevel(day.count, maxCount),
+    level: getLevel(day.count),
   }));
 
   const totalContributions = contributions.reduce((sum, day) => sum + day.count, 0);
