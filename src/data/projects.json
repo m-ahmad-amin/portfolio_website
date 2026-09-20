@@ -1,6 +1,125 @@
 {
   "projects": [
     {
+      "id": "fernwise",
+      "title": "Fernwise",
+      "subtitle": "Adaptive AI Architecture model for Agriculture",
+      "description": "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%.",
+      "techStack": [
+        "Python",
+        "Deep Learning",
+        "PyTorch",
+        "Tensor Flow",
+        "Object Detection",
+        "React Native"
+      ],
+      "downloadAPK": "https://github.com/m-ahmad-amin/fernwise-apk/releases/download/v1.0.0/Fernwise.apk",
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789945424/fernwise_field_app_hero_z2ho5h.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785807/linkedin_disease_results_v2_r3kpvp.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785786379/Gemini_Generated_Image_943svh943svh943s_binpzi.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785885/linkedin_pest_results_zfyahj.png",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Conducting research on efficient deep learning models for real-time image classification (computer vision) on resource-constrained mobile devices, targeting agricultural applications in Pakistan",
+        "Evaluating lightweight architectures for deployment on low-end hardware under real-world field conditions",
+        "Built responsive React + Tailwind UI with clear debate state transitions",
+        "Deployed frontend and backend with continuous iteration based on playtesting",
+        "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%",
+        "Lightweight architectures for deployment on low-end hardware under low constraints of around 500KB memory",
+        "Ful-Stack React Native app so it can be used on smart phones"
+      ]
+    },
+    {
+      "id": "CUHK-X-HAR",
+      "title": "CUHK-X HAR",
+      "subtitle": "Cross-Subject Multimodal Human Activity Recognition",
+      "description": "Privacy-preserving human activity recognition: classify everyday actions from depth video and body skeleton only, without RGB cameras. The stack is a compact 3D CNN on short depth clips plus a skeleton sequence model, trained end to end from scratch and small enough to run under a tight on-device weight budget.",
+      "techStack": [
+        "Python",
+        "PyTorch"
+      ],
+      "githubUrl": "https://github.com/m-ahmad-amin/cuhk-x-small-model",
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789941926/portfolio_thumb_o6oqe6.jpg",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789941926/portfolio_thumb_o6oqe6.jpg",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789942288/portfolio_depth_skel_cf7smc.jpg",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789942319/pipeline_wdq9fu.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789942317/portfolio_thumb_alt_z0pap8.jpg",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Privacy-preserving Human Activity Recognition using depth and body-skeleton data without RGB video",
+        "Multimodal activity classification combining depth video and skeletal motion",
+        "Compact 3D CNN for spatial-temporal feature extraction from short depth clips",
+        "Skeleton-based BiGRU using normalized joint positions and joint velocity",
+        "On-device / small-model optimization with the complete two-model ensemble staying under the 100 MB weight limit",
+        "End-to-end training from scratch under cross-subject evaluation constraints",
+        "Test-Time Augmentation (TTA) with horizontal flips, temporal windows, and spatial crops",
+        "Two-seed model ensembling to improve prediction robustness"
+      ]
+    },
+    {
+      "id": "Mars-Terrain",
+      "title": "Mars-Terrain",
+      "subtitle": "Simulated Deep Learning Autonomous Mars Rover Navigation",
+      "description": "Mars-Terrain is an end-to-end simulated autonomous navigation loop for a Mars rover. A DeepLabv3-ResNet50 model trained on real Curiosity NavCam imagery (AI4Mars) does terrain segmentation. We project that into a local cost map. The rover only sees what's in its camera FOV, grows a belief map as it moves, and runs A* to a goal you click. If newly seen terrain blocks the route, it replans.",
+      "techStack": [
+        "Python",
+        "PyTorch",
+        "torchvision",
+        "DeepLabv3-ResNet50",
+        "NumPy",
+        "A* search"
+      ],
+      "liveUrl": "https://m-ahmad-amin.github.io/mars-terrain/",
+      "githubUrl": "https://github.com/m-ahmad-amin/mars-terrain",
+      "coverImage": "final.gif",
+      "previewImages": [
+        {
+          "src": "final.gif",
+          "size": "large"
+        },
+        {
+          "src": "pred_mixed.jpg",
+          "size": "large"
+        },
+        {
+          "src": "pred_rocks.jpg",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Real-world Mars terrain perception using Curiosity MSL NavCam imagery from NASA's AI4Mars dataset",
+        "Deep-learning terrain segmentation with DeepLabv3-ResNet50 across 4 terrain classes",
+        "Bird's-eye-view (BEV) cost mapping that converts visual terrain predictions into traversability costs",
+        "Partial-observability simulation where the rover only knows terrain within its current camera field of view",
+        "Belief-map construction that progressively updates as the rover explores new terrain",
+        "Autonomous A* path planning toward user-selected destinations",
+        "Dynamic replanning when newly observed terrain makes the current route costly or blocked"
+      ]
+    },
+    {
       "id": "factarena",
       "title": "Fact Arena",
       "subtitle": "Full-Stack AI-Judged 1v1 Debate Platform (Argument Settler)",
@@ -38,45 +157,6 @@
         "Structured judgment output: individual scores, final winner, and detailed reasoning",
         "React (Vite) + Tailwind CSS frontend",
         "Node.js + Express.js backend"
-      ]
-    },
-    {
-      "id": "fernwise",
-      "title": "Fernwise",
-      "subtitle": "Adaptive AI Architecture model for Agriculture",
-      "description": "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%.",
-      "techStack": [
-        "Python",
-        "Deep Learning",
-        "PyTorch",
-        "Tensor Flow",
-        "Object Detection",
-        "React Native"
-      ],
-      "downloadAPK": "https://github.com/m-ahmad-amin/fernwise-apk/releases/download/v1.0.0/Fernwise.apk",
-      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1786113640/Gemini_Generated_Image_upvlddupvlddupvl_ttkzwj.png",
-      "previewImages": [
-        {
-          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785807/linkedin_disease_results_v2_r3kpvp.png",
-          "size": "large"
-        },
-        {
-          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785786379/Gemini_Generated_Image_943svh943svh943s_binpzi.png",
-          "size": "large"
-        },
-        {
-          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785885/linkedin_pest_results_zfyahj.png",
-          "size": "large"
-        }
-      ],
-      "features": [
-        "Conducting research on efficient deep learning models for real-time image classification (computer vision) on resource-constrained mobile devices, targeting agricultural applications in Pakistan",
-        "Evaluating lightweight architectures for deployment on low-end hardware under real-world field conditions",
-        "Built responsive React + Tailwind UI with clear debate state transitions",
-        "Deployed frontend and backend with continuous iteration based on playtesting",
-        "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%",
-        "Lightweight architectures for deployment on low-end hardware under low constraints of around 500KB memory",
-        "Ful-Stack React Native app so it can be used on smart phones"
       ]
     },
     {
