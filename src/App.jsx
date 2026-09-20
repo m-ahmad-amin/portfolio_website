@@ -6,11 +6,12 @@ import ProjectDetailPage from "./pages/ProjectDetailPage.jsx";
 import ExperienceDetailPage from "./pages/ExperienceDetailPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import NavBar from "./components/NavBar.jsx";
+import AskAhmadWidget from "./components/AskAhmadWidget.jsx";
 
 export default function App() {
   return (
     <>
-    <NavBar />
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/skills" element={<SkillsPage />} />
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/experience/:experienceId" element={<ExperienceDetailPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <AskAhmadWidget />
     </>
   )
 }
