@@ -14,7 +14,7 @@
         "React Native"
       ],
       "downloadAPK": "https://github.com/m-ahmad-amin/fernwise-apk/releases/download/v1.0.0/Fernwise.apk",
-      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1790082677/can_you_create_a_video_using_t-ezgif.com-video-to-gif-converter_ykd4wi.gif",
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1789945424/fernwise_field_app_hero_z2ho5h.png",
       "previewImages": [
         {
           "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1785785807/linkedin_disease_results_v2_r3kpvp.png",
@@ -37,6 +37,45 @@
         "Efficient deep learning models for real-time image classification for crop-disease and pest detection with the accuracy of around 85%",
         "Lightweight architectures for deployment on low-end hardware under low constraints of around 500KB memory",
         "Ful-Stack React Native app so it can be used on smart phones"
+      ]
+    },
+    {
+      "id": "Spiking-Wildfire",
+      "title": "Spiking Wildfire",
+      "subtitle": "Spatially Coupled LIF/SNN for NASA FIRMS Wildfire Detection",
+      "description": "Brain-inspired neurocomputing for wildfire monitoring: an event-driven spiking neural network (SNN) of spatially coupled Leaky Integrate-and-Fire (LIF) neurons that encodes NASA FIRMS satellite detections as sparse spike trains to separate wildfires from industrial heat sources, track fire spread, and forecast new activity.",
+      "techStack": [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "NumPy",
+        "SciPy",
+        "pandas",
+        "joblib"
+      ],
+      "liveUrl": "https://spiking-wildfire.onrender.com",
+      "githubUrl": "https://github.com/m-ahmad-amin/spiking-wildfire",
+      "coverImage": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1791662811/0e428458-8524-4e38-a750-ad2108ca0818.png",
+      "previewImages": [
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1791662811/0e428458-8524-4e38-a750-ad2108ca0818.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1791426373/Group_3_3_dttmvc.png",
+          "size": "large"
+        },
+        {
+          "src": "https://res.cloudinary.com/dzzrxqiho/image/upload/v1791427946/image_tnsveh.jpg",
+          "size": "large"
+        }
+      ],
+      "features": [
+        "Built a spatially coupled LIF/SNN on a 0.05° grid over California (2019–2020) using NASA FIRMS VIIRS; sparse mode cut cell updates to ~39M vs ~700M dense (~18× fewer ops) with PyTorch, NumPy, and FastAPI.",
+        "Fit logistic readouts on LIF state for wildfire-vs-standing-heat detection (test AP / F1 0.992 / 0.982) and 24h new-activity forecast beating fire-mask dilation (AP 0.058 vs 0.016); compared against gradient boosting, LSTM, and ConvLSTM baselines.",
+        "Shipped an interactive React + Leaflet + FastAPI demo with California 2020 playback, live LIF hour-step, and global NRT FIRMS refresh (Render deploy).",
+        "Log-FRP spike encoding from FIRMS detections",
+        "Sparse vs dense update modes"
       ]
     },
     {
